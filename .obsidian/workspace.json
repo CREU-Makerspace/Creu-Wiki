@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "6205d9d62e74f7a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d608b71fe93c341",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8151484d630c723b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scroll Saw/ScrollSaw_Quickstart.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ScrollSaw_Quickstart"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41ae011da41cd259",
+    "type": "split",
+    "children": [
+      {
+        "id": "e55d76ab055b0a06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ad712684f7c6d67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b35e4a819db8dcd4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "48417cd299f6d64f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3c6b006eee967210",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d67bfcd100e2080",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeef905297a922aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Supervisor-Staff Guides/SupervisorRoles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SupervisorRoles"
+            }
+          },
+          {
+            "id": "3f66797778025ec9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "daf424926479d4f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "75f27589f780fbc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "8151484d630c723b",
+  "lastOpenFiles": [
+    "Templates/Template_Quickstart.md",
+    "Scroll Saw/ScrollSaw_Troubleshooting.md",
+    "publish.css",
+    "Scroll Saw/ScrollSaw_Splash.md",
+    "Scroll Saw/ScrollSaw_Safety_Operation.md",
+    "Scroll Saw/ScrollSaw_Quickstart.md",
+    "Templates/Template_Guides.md",
+    "Templates/Template_Splash.md",
+    "Templates/Template_Safety_Operation_Cutting.md",
+    "CREU-TheManufactory_Homepage.md",
+    "Supervisor-Staff Guides/SupervisorFaultsGuide.md",
+    "Student Guides/FaultReporting.md",
+    "Templates/Template_Safety_Operation_CNC.md",
+    "Untitled.base",
+    "Supervisor-Staff Guides/SupervisorRoles.md",
+    "Pillar Drill/PillarDrill_Troubleshooting.md",
+    "Pillar Drill/PillarDrill_Splash.md",
+    "Pillar Drill/PillarDrill_Safety_Operation.md",
+    "Pillar Drill/PillarDrill_Quickstart.md",
+    "Student Guides/EquipmentInduction.md",
+    "Student Guides/EquipmentTraining.md",
+    "Student Guides/GeneralSafety.md",
+    "Maintainer/README.md",
+    "KeyPeople.md",
+    "Maintainer/VERSION.md",
+    "Maintainer/CHANGELOG.md",
+    "Solder Station/SolderStation_Splash.md",
+    "Solder Rework Gun/SolderRework_Splash.md",
+    "Supervisor-Staff Guides",
+    "images/Equipment_SolderStation.jpg",
+    "images/Equpiment_SolderStation.jpg",
+    "images/Equipment_SolderRework.png",
+    "Solder Rework Gun",
+    "Solder Station",
+    "untitled folder",
+    "images/Equipment_PillarDrill.jpg",
+    "Equipment_PillarDrill.jpg",
+    "Pillar Drill.jpg",
+    "Pillar Drill",
+    "Pillar Drill",
+    "images/Equipment_ScrollSaw.jpg",
+    "images/ScrollSaw.jpg",
+    "ScrollSaw.jpg",
+    "Scrollsaw.jpg",
+    "Maintainer/package.sh.sb-5c8cf5d8-rOPkeh",
+    "Maintainer/package.sh"
+  ]
+}

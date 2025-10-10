@@ -1,0 +1,50 @@
+# CREU Makerspace Wiki – Project Notes
+
+This chat is a lightweight log of milestones, baselines, and important decisions.  
+Use it as an index across all task chats.
+
+---
+
+## 📌 Baselines
+- 2025-08-28 v1.0 – Initial public baseline; Scroll Saw 4 pages; homepage; templates; theme; maintainer docs.
+
+---
+
+## 🗂️ Current Tasks
+- v1.1 – Draft Fault Reporting Guidance page  
+- v1.1 – Add stub for General Safety guide  
+- v1.1 – Test packaging script (macOS + Windows)  
+
+---
+
+## 🗺️ Roadmap
+
+### 📦 v1.1 (Incremental improvements)  
+- Fill in **Fault Reporting Guidance** (currently placeholder)  
+- Add stub content to **General Safety** guide  
+- Confirm apron colour usage across all pages (accessibility review)  
+- Test **packaging script** on macOS + Windows and refine instructions  
+
+### 📦 v1.2 (Content expansion)  
+- Add new equipment set: **Pillar Drill** (4 pages based on templates)  
+- Add homepage link to Pillar Drill splash page  
+- Update `VERSION.md` and `CHANGELOG.md`  
+
+### 📦 v1.3 (Styling + usability)  
+- Add **print CSS** (optional, revisited if needed)  
+- Refine homepage layout (category grouping, visual balance)  
+- Add placeholder image slots for all equipment splash pages  
+
+### 🚀 v2.0 (Major structural update)  
+- Introduce **Dataview plugin** auto-listing for equipment directory  
+- Standardise category tags across all equipment pages  
+- Restructure homepage to use auto-lists instead of manual links  
+- Update maintainer docs to reflect new system requirements  
+
+---
+
+## 📝 Notes
+- Every new task should have its own chat inside this Project.  
+- Baselines must always include Maintainer docs.  
+- Keep CHANGELOG append-only.  
+- Use QA checklist in `Maintainer/README.md` before packaging each baseline.

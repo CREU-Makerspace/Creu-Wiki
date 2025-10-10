@@ -1,0 +1,133 @@
+/* --- Banner header --- */
+.page-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.15) 100%),
+    #2c2c2c; /* brand black, higher contrast */
+  height: 80px;                  /* FIXED banner height */
+  padding: 0 28px;               /* no vertical padding */
+  border-top: 3px solid #e9d555; /* brand yellow */
+  border-bottom: 3px solid #e9d555;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.25);
+  margin-bottom: 24px;
+  gap: 24px; /* space between logo & text */
+}
+
+/* Logo */
+.page-banner img {
+  height: 100%;   /* fills banner height */
+  width: auto;    /* keeps proportions */
+  margin: 0;
+  display: block;
+}
+
+/* Text container */
+.page-banner h1 {
+  margin: 0;
+  font-size: clamp(18px, 2.6vw, 32px); /* responsive scaling */
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  color: #e9d555; /* brand yellow for main name */
+  line-height: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+
+/* Tagline styling if you split into span */
+.page-banner h1 .tagline {
+  font-weight: 500;
+  font-size: clamp(12px, 1.6vw, 18px);
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+/* --- Mobile adjustments --- */
+@media (max-width: 640px) {
+  .page-banner {
+    height: 60px;      /* slightly shorter banner */
+    gap: 16px;         /* closer spacing */
+    padding: 0 16px;
+  }
+
+  .page-banner h1 {
+    font-size: clamp(16px, 5vw, 26px); /* shrink text */
+  }
+
+  .page-banner h1 .tagline {
+    font-size: clamp(11px, 3.5vw, 16px); /* shrink tagline */
+  }
+}
+
+/* Colour tags for roles/aprons */
+.black-apron { color: black; font-weight: bold; }
+.red-apron   { color: #ff0000; font-weight: bold; }
+.blue-apron  { color: #0070c0; font-weight: bold; }
+.green-apron { color: #00b050; font-weight: bold; }
+
+/* Optional: Uncomment to render as coloured badges instead of coloured text */
+/*
+.black-apron, .red-apron, .blue-apron, .green-apron {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+}
+.black-apron { background-color: black; }
+.red-apron   { background-color: #ff0000; }
+.blue-apron  { background-color: #0070c0; }
+.green-apron  { background-color: #00b050; }
+*/
+
+/* Hide Obsidian's filename title bars so the custom banner is the only header */
+.view-header-title,
+.inline-title {
+  display: none !important;
+}
+
+/* --- Print styles (handouts) --- */
+@media print {
+  /* Simplify the banner for paper */
+  .page-banner {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: auto !important;
+    padding: 0 0 8px 0 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .page-banner img {
+    height: 36px !important;
+    width: auto !important;
+    margin-right: 8px !important;
+  }
+
+  .page-banner h1 {
+    color: #000 !important;            /* black text for legibility */
+    font-size: 20px !important;
+    letter-spacing: 0 !important;
+  }
+
+  .page-banner h1 .tagline {
+    color: #000 !important;
+    opacity: 1 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Show destination URLs after external links (helpful on paper) */
+  a[href^="http"]::after {
+    content:" (" attr(href) ")";
+    font-size: 90%;
+  }
+
+  /* Optional: tighten spacing for print */
+  .markdown-preview-view {
+    line-height: 1.35;
+    font-size: 11pt;
+  }
+}
+
