@@ -7,4 +7,4 @@ It's published here: https://publish.obsidian.md/su-creu-manufactory/CREU-TheMan
 Feel free to contribute any updates to it :)
 
 
-Here is a guide on how to contribute if you have never used github:
+Here is a guide on how to contribute if you have never used GitHub:
