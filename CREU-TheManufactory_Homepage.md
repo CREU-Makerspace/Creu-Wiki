@@ -14,7 +14,7 @@ updated: 2025-08-28
 
 Welcome to the CREU Makerspace Wiki!  
 Here you’ll find guidance on using equipment safely, arranging training, and reporting faults.
-TEST
+
 ---
 
 ## ℹ️ How to Use This Wiki

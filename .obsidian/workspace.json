@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CREU-TheManufactory_Homepage.md",
-                "mode": "source",
+                "file": "Scroll Saw/ScrollSaw_Splash.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CREU-TheManufactory_Homepage"
+              "title": "ScrollSaw_Splash"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "8151484d630c723b",
   "lastOpenFiles": [
+    "CREU-TheManufactory_Homepage.md",
     "Scroll Saw/ScrollSaw_Quickstart.md",
     "Templates/Template_Quickstart.md",
     "Scroll Saw/ScrollSaw_Troubleshooting.md",
@@ -181,7 +182,6 @@
     "Templates/Template_Guides.md",
     "Templates/Template_Splash.md",
     "Templates/Template_Safety_Operation_Cutting.md",
-    "CREU-TheManufactory_Homepage.md",
     "Supervisor-Staff Guides/SupervisorFaultsGuide.md",
     "Student Guides/FaultReporting.md",
     "Templates/Template_Safety_Operation_CNC.md",
