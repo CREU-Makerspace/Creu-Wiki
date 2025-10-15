@@ -1,150 +1,129 @@
 # Project Management Guide – CREU Makerspace Wiki
 
-This document explains how to use ChatGPT Projects to maintain and extend the wiki.  
-It assumes you are starting with a zipped baseline folder of the wiki content.
+This document explains how maintainers and contributors use **ChatGPT Projects** together with **GitHub** to maintain and extend the Makerspace Wiki.  
+It replaces the previous ZIP-based baseline workflow with a **Git branch + commit + tag** system, while retaining all metadata and documentation standards.
 
 ---
 
-## 🎯 Why This Matters
-- Very large single chats become slow, laggy, or may crash.  
-- Splitting work into **Projects** with smaller task chats keeps performance high.  
-- Baseline ZIPs ensure the project can be handed over fully to future maintainers.
+## 🎯 Purpose
+
+The Project Management framework defines how ChatGPT is used to support, document, and automate wiki maintenance.  
+GitHub is now the **authoritative record** for all versions; ChatGPT provides the **structured environment** for content generation and refinement.
 
 ---
 
-## 1. Unpack the Baseline
-- Extract the zipped baseline into your Obsidian vault.  
-- Review the `Maintainer/` folder: it contains:
-  - `README.md` – structure + workflow for new equipment  
-  - `Theme_Setup.md` – CSS + emoji standards  
-  - `Project_Management.md` – (this file)  
+## ⚙️ Repository Overview
+
+| Component | Function |
+|------------|-----------|
+| **GitHub Repository** | Canonical source for all wiki content and history |
+| **Obsidian Vault** | Local editing environment (mirrors the repo) |
+| **ChatGPT Project** | Managed workspace for multi-chat task handling |
+| **GitHub Desktop** | Visual tool for branch, commit, and merge management |
+
+Each device holds its own local clone.  
+Commits and pull requests maintain a transparent history of all changes.
 
 ---
 
-### **2. Create a New ChatGPT Project**
+## 🧩 Project Setup in ChatGPT
 
-In ChatGPT, click **New Project**.  
-Name it: **CREU Makerspace Wiki**.
-- You can upload the baseline ZIP into the project for your own reference,
-- **But if you want ChatGPT to actually read and edit its contents, upload the ZIP directly into a task chat (see Step 4).**
-
----
-
-## 3. Set Up “Project Notes”
-- Inside the project, create a new chat called **Project Notes**.  
-- Use this template:
-
-```
-# CREU Makerspace Wiki – Project Notes
-
-This chat is a lightweight log of milestones, baselines, and important decisions.  
-Use it as an index across all task chats.
+### 1️⃣ Create a ChatGPT Project
+1. Click **New Project** in ChatGPT.  
+2. Name it: `CREU Makerspace Wiki`.  
+3. Pin key files (if not already in the repository):  
+   - `Maintainer/README.md`  
+   - `Maintainer/Theme_Setup.md`  
+   - `Maintainer/Project_Management.md` (this file)  
+4. Create **separate task chats** for each discrete job or document set.
 
 ---
 
-## 📌 Baselines
-- {{YYYY-MM-DD}} – {{What was included}} ({{ZIP filename}})
+### 2️⃣ Start Task Chats
+
+Each new item of work (e.g., *Laser Cutter SOP updates*, *New guide creation*, *Theme tweaks*) gets its own chat.
+
+At the start of each new chat, paste the following preamble:
 
 ---
 
-## 🗂️ Current Tasks
-- {{Task 1}}  
-- {{Task 2}}  
+This chat contributes to the **CREU Makerspace Wiki Project**.
+
+- The GitHub repository (`CREU-Makerspace/creu-wiki`) is the source of truth.  
+- All content updates are stored in a feature branch (e.g., `feature/laser-cutter-update`).  
+- ChatGPT edits Markdown and metadata according to wiki templates.  
+- Template headings and emoji structure must not be altered.  
+- All pages must contain valid YAML metadata (see standard field templates).
 
 ---
 
-## 📝 Notes
-- Every new task should have its own chat inside this Project.  
-- Baselines must always include Maintainer docs.  
-```
----
+When ChatGPT produces Markdown, copy the files into your local clone, **commit**, and **push** to the associated branch.
 
-## 4. Start Task Chats
-For each new piece of work (e.g., Laser Cutter Quickstart), create a **new chat inside the Project**.
-
-At the top of the chat:
-1. Upload the current **baseline ZIP** into the chat (paperclip button).
-    - This allows ChatGPT to list, extract, and edit the files inside.
-    - After edits, ChatGPT will repackage the folder into a new baseline ZIP.
-2. Paste this kickoff snippet:
-
-```
-This is part of the **CREU Makerspace Wiki Project**.  
-Use the **baseline ZIP I provide as the single source of truth**.
-
-- Always open and use the exact template file (e.g. `Template_Splash.md`) before generating a page.  
-- Do **not** reword, rename, or add headings.  
-- Do **not** change emojis, tables, or section order.  
-- Only replace `{{PLACEHOLDER}}` tokens with equipment-specific content.  
-- If information is missing, leave the placeholder as-is.  
-- Confirm with me using one page (e.g. Splash) before generating the full 4-page set.
-```
+> ℹ️ *If you prefer a running log inside ChatGPT, you may keep a separate “Project Notes” chat, but this is optional.  
+> GitHub (commits, tags, and changelogs) is now the authoritative record.*
 
 ---
 
-## 5. Maintain Project Notes
-- When a task is finished:
-  - Mark it *(done)* under **Current Tasks**.  
-  - Add a new entry under **Baselines** with the date, what was added, and the new ZIP filename.  
+## 🧱 Working in GitHub
 
-Example:
-```
-- 2025-09-10 – Laser Cutter 4-page set completed; homepage updated. (CreuWikiPages_Baseline_2025-09-10.zip)
-```
+| Action | Tool | Description |
+|--------|------|-------------|
+| Create branch | GitHub Desktop | `Branch → New Branch from main` |
+| Edit files | Obsidian | Add or update Markdown pages |
+| Commit | GitHub Desktop | Save with a clear message |
+| Push | GitHub Desktop | Upload branch changes |
+| Submit PR | GitHub (web) | Maintainer reviews and merges |
+| Tag release | GitHub (web) | Marks a new milestone |
 
----
-
-## 6. Roles in the Workflow
-- **Project Notes** = changelog and to-do list.  
-- **Task Chats** = clean, focused workspaces.  
-- **Baseline ZIPs** = checkpoints that ensure full transferability.  
-
-Think of it like Git:  
-- Baselines = commits  
-- Project Notes = changelog  
-- Task Chats = branches  
-
----
-## 🔮 Future Adaptation of This Workflow
-
-The current workflow (v1.x) is based on **baseline ZIPs** uploaded into task chats.  
-This is simple, portable, and ensures that the wiki can be transferred between maintainers without external tools.
-
-As the wiki grows, this process may need to adapt:
-
-### 📦 Short Term (v1.x – up to ~10 tools)
-- Continue using ZIPs as baselines.
-- Keep one Project for the whole wiki.
-- Use task chats for new equipment or guidance pages.
-- Update `Project Notes` with baselines and current scope.
-
-### 📂 Medium Term (v2.x – 10–20+ tools, multiple categories)
-- Consider splitting into multiple Projects by **category** (e.g., “Cutting & Shaping”, “Digital Fabrication”).
-- Use Dataview or similar plugins to **auto-generate equipment lists** on the homepage.
-- Expand the `Templates/` folder to cover new page types (e.g., policies, inductions, safety forms).
-- Enhance the packaging script to check for:
-  - Missing or broken wikilinks
-  - Missing front-matter
-  - Missing logo images
-
-### 🌐 Long Term (v3.0+ – 20+ tools, multiple maintainers, publishing)
-- Migrate from ZIP-based baselines to **Git-based versioning**:
-  - Baselines become Git tags/releases instead of ZIPs.
-  - Task chats work from a tagged repo state instead of a ZIP.
-  - GitHub/MkDocs, Obsidian Publish, or GitBook can serve as the front-end.
-- Automate QA with scripts to validate all Markdown files.
+Pull requests are required for all contributor edits so the maintainer can preview and approve changes before merge.
 
 ---
 
-✅ For now, continue with **ZIP baselines** and task chats.  
-Keep this section in mind when the wiki reaches 10–20 tools or when more than one maintainer is contributing actively.
+## 🧭 Roles and Responsibilities
+
+| Role | Description |
+|------|--------------|
+| **Maintainer (you)** | Owns the repository, reviews and merges PRs, tags releases |
+| **Contributors (students)** | Create or edit content on branches, submit PRs |
+| **ChatGPT** | Generates or refines Markdown and metadata |
+
+---
+
+## 🧩 Version Control Workflow
+
+### Git as the Source of Truth
+- **Commits** record each change.  
+- **Branches** isolate work safely.  
+- **Pull Requests** allow controlled merging.  
+- **Tags / Releases** record stable milestones.  
+- **CHANGELOG.md** provides human-readable summaries.
+
+### Minor Updates
+Additions or corrections that don’t affect structure:
+- New equipment pages  
+- Guide edits  
+- CSS tweaks or accessibility fixes
+
+### Major Updates
+Structural or functional changes:
+- Template redesign  
+- Navigation restructuring  
+- Theme overhaul or dependency updates
+
+---
+
+### Creating a New Release
+1. Merge all completed PRs into `main`.  
+2. In GitHub → **Create Tag / Release** (e.g., `v2.4`).  
+3. Add a short summary.  
+4. Update both `VERSION.md` and `CHANGELOG.md`.
 
 ---
 
 ## 🏷️ Metadata (Front-Matter) Standards
 
-Each page in the wiki should start with a YAML metadata block.  
-This block **must always be the very first thing in the file**, before any comments (`<!-- ... -->`) or headings.  
+Every Markdown page **must begin** with a YAML metadata block.  
+This block sits at the top of the file — before any headings, callouts, or comments.
 
 Example placement:
 
@@ -157,21 +136,20 @@ status: active
 page: splash
 updated: 2025-08-28
 ---
-
-<!-- Optional page comments go here -->
-
-# Scheppach SD1600f Scroll Saw
 ```
+# Scheppach SD1600f Scroll Saw
 
-### Why This Matters
-- Enables **search and filtering** in Obsidian (especially with the Dataview plugin).  
-- Ensures consistency across pages for easier audits.  
-- Makes the wiki **portable** to other platforms (MkDocs, GitBook, Jekyll, etc.).  
-- Hidden by default in Obsidian Preview and Obsidian Publish (not visible to users).  
 
-### Standard Fields
+Why this matters
+- Enables future Dataview queries and audits
+- Enforces uniform formatting across pages
+- Keeps the wiki portable to other systems (MkDocs, GitBook, etc.)
+- Hides automatically in Obsidian preview and Publish view
+
+### Standard Field Templates
 
 #### Equipment Pages
+
 ```
 equipment: {{Equipment Name}}
 category: {{Category}}
@@ -180,16 +158,16 @@ status: active | draft | retired
 page: splash | quickstart | safety | troubleshooting
 updated: YYYY-MM-DD
 ```
-
 #### Guide Pages
+
 ```
 guide: {{Guide Title}}
 type: induction | fault-reporting | safety-policy | other
 status: active | draft
 updated: YYYY-MM-DD
 ```
-
 #### Homepage
+
 ```
 homepage: true
 title: CREU Makerspace Wiki – The Manufactory
@@ -198,5 +176,78 @@ status: active
 updated: YYYY-MM-DD
 ```
 
-✅ Always update the `updated:` field when making significant changes.  
-✅ Do not place anything (including comments) before the opening `---`.
+Rules:
+
+- Always update updated: on edits.
+- No content may precede the opening ---.
+- Maintain lowercase field names.
+- Remove unused keys only if the entire field type is irrelevant.
+- Check YAML validity before commit (e.g., no tabs, use spaces).
+- These templates are the single source of truth for page metadata.
+
+### 🧱 File Naming and Organisation
+| Folder           | Purpose                                     |
+| ---------------- | ------------------------------------------- |
+| `/Templates`     | Canonical page templates (4-page structure) |
+| `/CreuWikiPages` | All active equipment sets                   |
+| `/Guides`        | General instructional documentation         |
+| `/Maintainer`    | Internal documents (this folder)            |
+| `/images`        | Shared assets and diagrams                  |
+
+**Naming rules**
+
+- Use `EquipmentName_PageType.md` (capitalised, underscores only).
+- Avoid spaces or special characters.
+- All filenames must be unique within the repo.
+
+---
+
+## 📊 Tracking Work Across Chats (Optional)
+
+If you want an at-a-glance log inside ChatGPT (separate from Git history), you can keep a simple “index” message pinned in your Project describing:
+
+- Open task chats and their purpose
+- The Git branch each task uses
+- Links to PRs or tags when available
+
+Example snippet to pin:
+
+```
+Active Chats → Branches
+- Laser Cutter Update → feature/laser-cutter-update
+- Theme Refresh → feature/theme-refresh
+- Induction Guide tweaks → feature/induction-guide-tweaks
+```
+
+This is optional. GitHub (commits/tags/PRs) plus CHANGELOG.md and VERSION.md remain authoritative.
+
+### 🧠 Scaling the Workflow
+|Phase|Repository Scale|Adaptation|
+|---|---|---|
+|**Short Term (v2.x)**|<15 tools|Single repo with ChatGPT Project for all tasks|
+|**Medium Term (v3.x)**|15–25 tools|Group folders by type (Cutting, CNC, Heat)|
+|**Long Term (v4.x)**|25+ tools|Split into multiple repos or migrate to MkDocs / GitBook|
+
+Keep CHANGELOG.md and VERSION.md centralised for continuity.
+
+#### 🔮 Future Automation Concepts
+- Dataview-generated equipment indexes
+- GitHub Actions for metadata validation
+- Automated link integrity checks
+- Branch-based theme preview builds
+
+#### ✅ Summary Workflow
+
+[ChatGPT Project]
+   ↓ generates or edits Markdown
+[Local Git Branch in Obsidian]
+   ↓ commit + push
+[GitHub Repository]
+   ↓ pull request + merge
+[Main Branch → Tagged Release]
+
+---
+
+Version: v2.4 – October 2025
+Maintainer: CREU Makerspace Owner
+Last Reviewed: 2025-10-15

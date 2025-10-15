@@ -1,4 +1,19 @@
 # CHANGELOG
+
+## 📦 Release Note – CREU Makerspace Wiki v2.0
+**Date:** 2025-10-14  
+**Version:** 2.0 
+
+### Added
+### Updated
+- Moved wiki documentation into new github repository management system
+- README rewritten to remove out of date instructions and replace with new git related content. Tone changed to instructional use for wiki contributors.
+- Project_Management rewritten to remove out of date instructions and replace with new git related content. Tone changed to instructional use for wiki contributors.
+
+### Notes
+- New maintainer documents and github versioning will allow supervisors and users to submit new content for online documentation
+
+
 ## 📦 Release Note – CREU Makerspace Wiki v1.3
 **Date:** 2025-09-01  
 **Version:** 1.3  

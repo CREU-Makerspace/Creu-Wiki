@@ -1,3 +1,11 @@
+
+
+version: **2.0**
+date: **2025-10-15**
+notes: Wiki documentation moved to Github repository. Maintainer documents README & Project_Management have been updated for the supervisors of Creu as reference for creating and review submission of new wiki content.
+
+---
+
 version: **1.3**
 date: **2025-09-01**
 notes: Added Fault Reporting (Student + Supervisor) guides. Guides template refined (homepage link, audience block, logo path). Student guide updated with severity, examples, MS Teams resources; Supervisor guide updated with Expected Online duties and examples. Splash template and pages have warning block.
