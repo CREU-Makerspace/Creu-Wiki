@@ -12,23 +12,30 @@ shortname: "BambuA1" # e.g. PillarDrill ScrollSaw
 # Troubleshooting & Maintenance – Bambu Lab A1
 
 *This page provides guidance for <span class="blue-apron">Maker-Pros</span> and <span class="red-apron">Supervisors</span>.  
-Students should not attempt repairs beyond routine checks.* ---
+Students should not attempt repairs beyond routine checks.* 
+
+---
 
 ## 🔎 Troubleshooting
 
-**Print not sticking to bed / poor first layer** - Build plate is dirty or has fingerprints. Clean with warm soapy water, then Isopropyl Alcohol (IPA).
+**Print not sticking to bed / poor first layer** 
+- Build plate is dirty or has fingerprints. Clean with warm soapy water, then Isopropyl Alcohol (IPA).
 - Build plate type is incorrect for the material. Ensure you are using the correct plate and settings in Bambu Studio.
 
-**Filament grinding or not extruding (clog)** - Nozzle is clogged. Heat the nozzle and use the provided pin to clear it. For severe clogs, report to a Supervisor for a "cold pull" or hotend replacement.
+**Filament grinding or not extruding (clog)** 
+- Nozzle is clogged. Heat the nozzle and use the provided pin to clear it. For severe clogs, report to a Supervisor for a "cold pull" or hotend replacement.
 - Filament is tangled on the spool in the AMS Lite. Check the spool and ensure it can rotate freely.
 
-**Layer shifting (misaligned layers)** - Print speed is too high or acceleration is too aggressive for the model's geometry. Reduce speeds in the slicer.
+**Layer shifting (misaligned layers)** 
+- Print speed is too high or acceleration is too aggressive for the model's geometry. Reduce speeds in the slicer.
 - Debris on the carbon rods or guide rails. Report to a Supervisor for cleaning and inspection.
 
-**"Spaghetti" or completely failed print** - The model has detached from the build plate. Re-clean the plate and consider adding a brim or raft in the slicer settings.
+**"Spaghetti" or completely failed print** 
+- The model has detached from the build plate. Re-clean the plate and consider adding a brim or raft in the slicer settings.
 - The model requires supports that were not generated. Re-slice the model with appropriate supports for overhangs.
 
-**AMS Lite fails to load or unload filament** - The filament tip is not clean-cut. Trim the filament to a point before loading.
+**AMS Lite fails to load or unload filament** 
+- The filament tip is not clean-cut. Trim the filament to a point before loading.
 - The PTFE tube path is too constrained or bent. Ensure the tubes have a smooth path from the AMS to the toolhead.
 
 *(Add more cases based on manual/SOP; keep concise and practical.)*

@@ -62,7 +62,8 @@ shortname: "RayjetR400" # e.g. PillarDrill ScrollSaw
 - **Laser Radiation:** The Class 2 interlocked enclosure prevents exposure to the invisible Class 4 laser beam.
 
 **Emergency Information:** - First aid kit: **next to the rear entrance** of B005  
-- First aiders: available **behind reception** - All students must have the **SafeZone app installed on their phone** for emergencies
+- First aiders: available **behind reception** 
+- All students must have the **SafeZone app installed on their phone** for emergencies
 
 *(Detailed hazard controls: see [[RayjetR400_Safety_Operation|Safety & Operation]].)*
 
@@ -109,6 +110,6 @@ Submit a report: [[FaultReporting|Fault Reporting Guidance]]
 ---
 
 ## 📚 Resources
-- Manufacturer manual: [[Rayjet_R400_Manual.pdf]]
+- Manufacturer manual: [[RayjetR400_manual.pdf]]
 - SOP: [[SOP_RayjetR400.pdf]]  
 - Risk Assessment: [[RA_RayjetR400.pdf]]

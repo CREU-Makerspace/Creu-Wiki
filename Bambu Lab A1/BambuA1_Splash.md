@@ -33,7 +33,6 @@ shortname: "BambuA1" # e.g. PillarDrill ScrollSaw
 
 ## 🧩 At a Glance
 - Capacity / envelope: **256 x 256 x 256 mm build volume**
-- Key capability: **AMS Lite for 4-colour printing, fully automated calibration, high print speeds**
 - Typical use cases: **Rapid prototyping, functional parts, multi-colour models, educational projects**
 
 *(For key features, essential safety reminders, and step-by-step startup, see the [[BambuA1_Quickstart|Quickstart Guide]].)*
@@ -46,7 +45,7 @@ shortname: "BambuA1" # e.g. PillarDrill ScrollSaw
 
 | Apron Role                                  | Access                                 |
 | ------------------------------------------- | -------------------------------------- |
-| <span class="green-apron">Basic User</span> | ❌ No use                               |
+| <span class="green-apron">Basic User</span> | ✅ Independent use (after induction)    |
 | <span class="blue-apron">Maker-Pro</span>   | ✅ Independent use (after induction)    |
 | <span class="red-apron">Supervisor</span>   | ✅ May supervise & adjust speeds        |
 | <span class="black-apron">Staff</span>      | ✅ Full access, maintenance & servicing |
@@ -79,10 +78,9 @@ shortname: "BambuA1" # e.g. PillarDrill ScrollSaw
 - Wear PPE as required (**none for PLA/PETG; consult supervisor for other materials**)  
 - Tie back long hair  
 - Avoid loose clothing/jewellery  
-- **Never touch the nozzle or build plate during operation** ### 🧹 After Use
-- Switch off and unplug (**via the touchscreen and then the rear power switch**)  
+- **Never touch the nozzle or build plate during operation** 
+### 🧹 After Use
 - Wait for moving parts to stop fully  
-- Return **filaments and build plates** to storage  
 - Clean the workstation (**remove any plastic debris from the build plate and area**)  
 
 ---
@@ -106,6 +104,5 @@ Submit a report: [[FaultReporting|Fault Reporting Guidance]]
 ---
 
 ## 📚 Resources
-- Manufacturer manual: [[Bambu_A1_Manual.pdf]]
-- SOP: [[SOP_BambuA1.pdf]]  
+- Manufacturer manual and SOP: [[BambuA1_manual.pdf]]
 - Risk Assessment: [[RA_BambuA1.pdf]]

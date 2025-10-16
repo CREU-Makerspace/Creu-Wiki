@@ -38,7 +38,7 @@ It’s designed for trained users who need a refresher or step-by-step reference
 ## 🚀 Getting Started
 1. **Review safety** → follow Essentials above  
 2. **Prepare Print** → Load filament spools into the top-mounted AMS and ensure the build plate is clean.
-3. **Send File** → Slice your model in Bambu Studio and send it to the printer via Wi-Fi.
+3. **Send File** → Slice your model in Bambu Studio and send it to the printer via microSD.
 4. **Start Print** → Select the file using the control panel on the printer and press the start button.
 5. **Monitor Start** → Watch as the printer completes its auto-calibration and verify the first layer adheres correctly.
 

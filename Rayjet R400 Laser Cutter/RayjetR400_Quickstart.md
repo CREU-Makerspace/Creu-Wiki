@@ -30,7 +30,8 @@ It’s designed for trained users who need a refresher or step-by-step reference
 ---
 
 ## 🛡️ Essentials
-- **Training required before use** - **Wear safety goggles in the room**
+- **Training required before use** 
+- **Wear safety goggles in the room**
 - **NEVER LEAVE THE LASER UNATTENDED WHILE OPERATING**
 - **Only use materials from the approved list**
 - **Ensure fume extraction is running before starting ANY job**

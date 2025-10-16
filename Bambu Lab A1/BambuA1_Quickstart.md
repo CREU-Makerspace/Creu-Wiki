@@ -30,14 +30,20 @@ It’s designed for trained users who need a refresher or step-by-step reference
 ---
 
 ## 🛡️ Essentials
-- **Training required before use** - **Wear safety goggles and tie back long hair** - **Use guards/shields at all times** - **Never leave machine running unattended** - **Only use Bambu Lab approved build plates for your material** - **Ensure the correct filament profile is selected in Bambu Studio** - **Do not touch the moving parts or hot end during operation** *(For full safety guidance, see [[BambuA1_Safety_Operation|Safety & Operation]].)*
+- **Training required before use** 
+- **Wear safety goggles and tie back long hair** 
+- **Use guards/shields at all times** 
+- **Never leave machine running unattended** 
+- **Only use Bambu Lab approved build plates for your material** 
+- **Ensure the correct filament profile is selected in Bambu Studio** 
+- **Do not touch the moving parts or hot end during operation** *(For full safety guidance, see [[BambuA1_Safety_Operation|Safety & Operation]].)*
 
 ---
 
 ## 🚀 Getting Started
 1. **Review safety** → follow Essentials above  
 2. **Prepare Print** → Load filament into AMS Lite and ensure the build plate is clean and correctly installed.
-3. **Send File** → Slice your model in Bambu Studio and send it to the printer via Wi-Fi.
+3. **Send File** → Slice your model in Bambu Studio and send it to the printer via microSD card.
 4. **Start Print** → Select the file on the touchscreen and press print to begin. 
 5. **Monitor Start** → Watch the printer complete its auto-calibration and verify the first layer adheres correctly before leaving it.  
 

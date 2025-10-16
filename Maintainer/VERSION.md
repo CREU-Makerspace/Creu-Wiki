@@ -1,4 +1,9 @@
 
+version: **2.1**
+date: **2025-10-16**
+notes: New sections for BambuLabA1-P1S, Laser cutter, pictures and manuals. 
+
+---
 
 version: **2.0**
 date: **2025-10-15**

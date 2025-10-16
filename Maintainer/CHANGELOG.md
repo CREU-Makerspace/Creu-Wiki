@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 📦 Release Note – CREU Makerspace Wiki v2.1
+**Date:** 2025-10-16  
+**Version:** 2.1 
+
+### Added
+- Section for Laser Cutter
+- Section for Bambu Lab A1
+- Section for Bambu Lab P1S
+- Manuals folder with related manuals to theese machines
+### Updated
+- Images folders, added photos for BambuA1, Bambu P1S, Prussia, RayjetR400, Ultimaker, and pictures of subequipment for the latter machines
+
+### Notes
+- Updated README on github page
+
+
 ## 📦 Release Note – CREU Makerspace Wiki v2.0
 **Date:** 2025-10-14  
 **Version:** 2.0 

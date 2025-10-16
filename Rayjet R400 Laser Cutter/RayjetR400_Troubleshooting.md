@@ -16,21 +16,26 @@ Students should not attempt repairs beyond routine checks.* ---
 
 ## 🔎 Troubleshooting
 
-**Laser is not cutting through the material** - Laser is out of focus. Re-run the autofocus procedure.
+**Laser is not cutting through the material** 
+- Laser is out of focus. Re-run the autofocus procedure.
 - Power setting is too low or speed is too high. Check the approved settings for your material.
 - Lens or mirrors are dirty. Report to a supervisor for cleaning.
 
-**Sustained flame or fire on the material** - **STOP THE JOB IMMEDIATELY.** Keep the lid closed. Notify a supervisor. The material may be unsuitable, or settings are incorrect (power too high, speed too slow).
+**Sustained flame or fire on the material** 
+- **STOP THE JOB IMMEDIATELY.** Keep the lid closed. Notify a supervisor. The material may be unsuitable, or settings are incorrect (power too high, speed too slow).
 
-**Engraving is faint or inconsistent** - The material surface is not flat. Use weights or tape to secure it.
+**Engraving is faint or inconsistent** 
+- The material surface is not flat. Use weights or tape to secure it.
 - The source image is low resolution. Use a high-DPI raster image for engraving.
 - Laser is out of focus. Re-focus on the material surface.
 
-**JobControl software cannot connect to the laser** - Check the laser cutter is powered on at the wall and with the key switch.
+**JobControl software cannot connect to the laser** 
+- Check the laser cutter is powered on at the wall and with the key switch.
 - Check the USB cable is securely connected to both the laser and the computer.
 - Restart the JobControl software.
 
-**Excessive smoke is escaping the enclosure** - **STOP THE JOB IMMEDIATELY.** The fume extraction may be blocked, switched off, or failing. Report to a supervisor.
+**Excessive smoke is escaping the enclosure** 
+- **STOP THE JOB IMMEDIATELY.** The fume extraction may be blocked, switched off, or failing. Report to a supervisor.
 
 *(Add more cases based on manual/SOP; keep concise and practical.)*
 

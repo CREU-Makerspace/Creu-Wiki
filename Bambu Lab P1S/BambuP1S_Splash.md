@@ -46,9 +46,9 @@ shortname: "BambuP1S" # e.g. PillarDrill ScrollSaw
 
 | Apron Role                                  | Access                                 |
 | ------------------------------------------- | -------------------------------------- |
-| <span class="green-apron">Basic User</span> | ❌ No use                               |
-| <span class="blue-apron">Maker-Pro</span>   | ✅ Independent use (after induction)    |
-| <span class="red-apron">Supervisor</span>   | ✅ May supervise & adjust speeds        |
+| <span class="green-apron">Basic User</span> | ✅ Independent use (after induction)    |
+| <span class="blue-apron">Maker-Pro</span>   | ✅ Independent use                      |
+| <span class="red-apron">Supervisor</span>   | ✅ May supervise                        |
 | <span class="black-apron">Staff</span>      | ✅ Full access, maintenance & servicing |
 **Trainer Badge:** Once training is complete, students must remember to request their **initialled BambuP1S badge file** from the supervisor. **Print this file as proof of your tool clearance and add it to your collection for future access clearance.**
 
@@ -105,6 +105,5 @@ Submit a report: [[FaultReporting|Fault Reporting Guidance]]
 ---
 
 ## 📚 Resources
-- Manufacturer manual: [[Bambu_P1S_Manual.pdf]]
-- SOP: [[SOP_BambuP1S.pdf]]  
+- Manufacturer manual and SOP: [[BambuP1S_manual.pdf]]
 - Risk Assessment: [[RA_BambuP1S.pdf]]

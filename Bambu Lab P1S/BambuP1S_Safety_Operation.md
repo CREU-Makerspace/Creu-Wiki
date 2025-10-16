@@ -58,22 +58,21 @@ All users must complete training before using this tool.
 
 ### 🔴 Shutdown Procedure
 1. Allow the print job to complete and the toolhead to park.  
-2. Let the build plate and enclosure cool before opening the door and removing the printed part.
-3. Switch off the printer using the control panel, followed by the main power switch at the rear.  
-4. Remove any purged filament or debris from the work area.
-5. Clean down work area (see [[BambuP1S_Splash|After Use checklist]])  
+2. Let the build plate and enclosure cool before opening the door and removing the printed part. 
+3. Remove any purged filament or debris from the work area.
+4. Clean down work area (see [[BambuP1S_Splash|After Use checklist]])  
 
 ---
 
 ## 🔩 Consumables & Approved Materials
 
-- **Approved Materials** - PLA, PETG, TPU, ABS, ASA, PVA
-  - *Supervisor approval required for PC, PA, and Carbon-Fibre filled filaments*
-  - Maximum thickness/size: **256 x 256 x 256 mm** - Do not print with unapproved materials without consulting a supervisor.
+- **Approved Materials** - PLA, PETG, TPU,
+- *<span class="red-apron">Supervisor</span> approval required for  ABS, ASA, PVA, PC, PA, and Carbon-Fibre filled filaments*
+- Maximum thickness/size: **256 x 256 x 256 mm** - Do not print with unapproved materials without consulting a supervisor.
 
 - **Consumables** - 0.4mm / 0.6mm Hardened Steel Complete Hotend Assemblies
-  - Bambu Lab Build Plates (Textured PEI, Cool Plate, Engineering Plate)
-  - 1.75mm diameter filament spools (PLA, PETG, ABS, etc.)
+- Bambu Lab Build Plates (Textured PEI, Cool Plate, Engineering Plate)
+- 1.75mm diameter filament spools (PLA, PETG, ABS, etc.)
 
 ---
 

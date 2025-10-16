@@ -33,7 +33,6 @@ All users must complete training before using this tool.
 - **Check power cables for damage before use** 
 - **Do not use damaged cables** 
 - **Disconnect the machine from power before maintenance** 
-- 
 ### 3D Printer Specific Safety
 - **NEVER leave the printer running unattended**, especially during the first layer.
 - Only use materials from the approved list. Unapproved filaments can damage the machine or release toxic fumes.
@@ -60,9 +59,8 @@ All users must complete training before using this tool.
 ### 🔴 Shutdown Procedure
 1. Allow the print job to complete and the toolhead to park.
 2. Let the build plate cool before carefully removing the printed part.
-3. Switch off the printer using the touchscreen, followed by the main power switch at the rear.
-4. Remove any purged filament or debris from the work area.
-5. Clean down work area (see [[BambuA1_Splash|After Use checklist]])  
+3. Remove any purged filament or debris from the work area.
+4. Clean down work area (see [[BambuA1_Splash|After Use checklist]])  
 
 ---
 

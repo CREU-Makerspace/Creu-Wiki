@@ -12,24 +12,31 @@ shortname: "BambuP1S" # e.g. PillarDrill ScrollSaw
 # Troubleshooting & Maintenance – Bambu Lab P1S
 
 *This page provides guidance for <span class="blue-apron">Maker-Pros</span> and <span class="red-apron">Supervisors</span>.  
-Students should not attempt repairs beyond routine checks.* ---
+Students should not attempt repairs beyond routine checks.* 
+
+---
 
 ## 🔎 Troubleshooting
 
-**Print not sticking to bed / poor first layer** - Build plate is dirty or has fingerprints. Clean with warm soapy water, then Isopropyl Alcohol (IPA).
+**Print not sticking to bed / poor first layer** 
+- Build plate is dirty or has fingerprints. Clean with warm soapy water, then Isopropyl Alcohol (IPA).
 - Build plate type is incorrect for the material. For ABS/ASA, the Engineering Plate with glue stick is often required.
 
-**Filament grinding or not extruding (clog)** - Nozzle is clogged. Follow the official Bambu Lab wiki guide for clearing P1S clogs. If unsure, report to a Supervisor.
+**Filament grinding or not extruding (clog)** 
+- Nozzle is clogged. Follow the official Bambu Lab wiki guide for clearing P1S clogs. If unsure, report to a Supervisor.
 - Moisture in filament. Brittle filament may snap in the AMS or extruder. Report it for drying.
 
-**Layer shifting (misaligned layers)** - Print speed/acceleration is too high. Reduce speeds in the slicer and re-run calibration.
+**Layer shifting (misaligned layers)** 
+- Print speed/acceleration is too high. Reduce speeds in the slicer and re-run calibration.
 - Belts on the CoreXY system may be loose. Report to a supervisor for a belt tensioning procedure.
 
-**AMS fails to load or unload filament** - Filament tip is not cleanly cut. Trim the filament to a point before loading.
+**AMS fails to load or unload filament** 
+- Filament tip is not cleanly cut. Trim the filament to a point before loading.
 - Resistance in the PTFE tube path from the AMS to the toolhead. Check for kinks or sharp bends.
 - Cardboard spools are binding in the AMS. Only use plastic spools or print spool adapters.
 
-**Warping or layer splitting on large ABS/ASA prints** - The enclosure door was opened mid-print, causing a temperature drop. Keep the door closed at all times.
+**Warping or layer splitting on large ABS/ASA prints** 
+- The enclosure door was opened mid-print, causing a temperature drop. Keep the door closed at all times.
 - Bed temperature is too low, or there is insufficient adhesion. Clean the plate and use a glue stick.
 - The chamber was not allowed to pre-heat sufficiently. Let the bed heat up for 10-15 minutes before starting the print.
 
