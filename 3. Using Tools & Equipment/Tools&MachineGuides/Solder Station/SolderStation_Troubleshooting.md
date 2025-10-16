@@ -64,7 +64,7 @@ Report anything that **stops safe use**, including:
 - Electrical faults  
 - Broken stand or missing accessories  
 
-Submit a report here: [[FaultReporting|Fault Reporting Guidance]]
+Submit a report here: [[ReportAFault|Fault Reporting Guidance]]
 
 ---
 

@@ -66,7 +66,7 @@ Report anything that **stops safe use**, including:
 - Electrical faults  
 - Broken or missing nozzles  
 
-Submit a report here: [[FaultReporting|Fault Reporting Guidance]]
+Submit a report here: [[ReportAFault|Fault Reporting Guidance]]
 
 ---
 

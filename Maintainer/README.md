@@ -49,8 +49,6 @@ Full reference: [[Theme_Setup.md]]
 ### 📁 File Location
 <Your Vault>/.obsidian/snippets/creu-theme.css
 
-yaml
-Copy code
 
 ---
 

@@ -26,10 +26,10 @@ USAGE
   <h1>CREU – The Manufactory</h1>
 </div>
 
-[[CREU-TheManufactory_Homepage|← Makerspace Homepage]]
+[[CREU - The Manufactory - Homepage|← Makerspace Homepage]]
 
 > [!warning] Requires Training
-> Book an [[EquipmentInduction|induction]] or speak to a <span class="red-apron">Supervisor</span>.  
+> Book an [[GettingStartedAndInduction|induction]] or speak to a <span class="red-apron">Supervisor</span>.  
 
 # Sealey SD008 Solder Station — Overview
 
@@ -55,7 +55,7 @@ USAGE
 
 ## 🎓 Access & Training
 - **Induction training required** before use  
-- Induction arranged via [[EquipmentInduction|Equipment Induction Guidance]]  
+- Induction arranged via [[GettingStartedAndInduction|Equipment Induction Guidance]]  
 
 | Apron Role                                  | Access                                 |
 | ------------------------------------------- | -------------------------------------- |
@@ -120,7 +120,7 @@ Report anything that **stops safe use**, including:
 - Missing or cracked guards  
 - Electrical issues or any safety concern
 
-Submit a report: [[FaultReporting|Fault Reporting Guidance]]
+Submit a report: [[ReportAFault|Fault Reporting Guidance]]
 
 ---
 

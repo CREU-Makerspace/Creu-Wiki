@@ -12,7 +12,7 @@ shortname: "{{ShortName}}"  # e.g., FaultReport, InductionBooking, SafetyRules
   <h1>{{Guide Title}} <span class="tagline">{{Optional short tagline}}</span></h1>
 </div>
 
-[[CREU-TheManufactory_Homepage|← Makerspace Homepage]]
+[[CREU - The Manufactory - Homepage|← Makerspace Homepage]]
 
 # {{Guide Title}} 📖
 

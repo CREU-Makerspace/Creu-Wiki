@@ -12,7 +12,7 @@ shortname: "SupervisorFaults"
   <h1>Supervisor Fault Log Guide <span class="tagline">Triage, estimates, and safe return to service</span></h1>
 </div>
 
-[[CREU-TheManufactory_Homepage|← Makerspace Homepage]]
+[[CREU - The Manufactory - Homepage|← Makerspace Homepage]]
 
 # Supervisor Fault Log Guide 📖
 
@@ -96,5 +96,5 @@ When a fault is **resolved**:
 ---
 
 ## 📚 Resources
-- [[FaultReporting|Fault Reporting - Student Guide]]
-- [[SupervisorRoles|Supervisor Roles & Responsibilities]]
+- [[ReportAFault|Fault Reporting - Student Guide]]
+- [[SupervisorRolesAndResponsbilities|Supervisor Roles & Responsibilities]]

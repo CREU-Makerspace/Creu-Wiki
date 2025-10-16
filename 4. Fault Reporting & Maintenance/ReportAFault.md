@@ -12,7 +12,7 @@ shortname: "FaultReport"
   <h1>Reporting Faults <span class="tagline">How to keep equipment safe and available</span></h1>
 </div>
 
-[[CREU-TheManufactory_Homepage|← Makerspace Homepage]]
+[[CREU - The Manufactory - Homepage|← Makerspace Homepage]]
 
 # Reporting Faults 
 
@@ -97,7 +97,7 @@ If something isn’t working as expected, it may be due to setup or technique. I
 ---
 
 ## 📚 Resources
-- [[GeneralSafety|General Safety Rules]]  
+- [[MakespaceRulesAndSafety|General Safety Rules]]  
 - Safety & Operation Pages
 - **MS Teams – CREU: The Digital Toolkit**  
   - Use the *Fault Reporting* channel to access the MS Form.  

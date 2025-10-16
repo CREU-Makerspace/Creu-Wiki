@@ -34,16 +34,16 @@ Use the Splash Page as your hub; jump into the page that matches what you need t
 ---
 
 ## 📖 Guidance Pages
-- [[EquipmentInduction|Equipment Induction Guidance]] – how to arrange training  
-- [[FaultReporting|Fault Reporting Guidance]] – when and how to report issues  
-- [[GeneralSafety|General Safety Policy]]  
+- [[GettingStartedAndInduction|Equipment Induction Guidance]] – how to arrange training  
+- [[ReportAFault|Fault Reporting Guidance]] – when and how to report issues  
+- [[MakespaceRulesAndSafety|General Safety Policy]]  
 
 ---
 
 ## 🗂️ Equipment Directory
 
 ### Cutting & Shaping
-- [[Scroll Saw/ScrollSaw_Splash|Scheppach SD1600f Scroll Saw]]
+- [[ScrollSaw_Splash|Scheppach SD1600f Scroll Saw]]
 ### Digital Fabrication
 - 3D Printers (placeholder)  
 ### CNC Machines
