@@ -13,43 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maintainer/VERSION.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "VERSION"
-            }
-          },
-          {
-            "id": "1cd19360286913cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maintainer/README.md",
+                "file": "Templates/Template_Safety_Operation_CNC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Template_Safety_Operation_CNC"
             }
           },
           {
-            "id": "1a87f1b8f1a1a898",
+            "id": "100fa2bd1d6daa24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maintainer/CHANGELOG.md",
+                "file": "Templates/Template_Quickstart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHANGELOG"
+              "title": "Template_Quickstart"
+            }
+          },
+          {
+            "id": "872e82d46ac8b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bambu Lab P1S/BambuP1S_Splash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BambuP1S_Splash"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 355.5
   },
   "right": {
     "id": "3c6b006eee967210",
@@ -198,53 +199,53 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7e6c02a284f454a6",
+  "active": "5ad712684f7c6d67",
   "lastOpenFiles": [
-    "Maintainer/CHANGELOG.md",
-    "Maintainer/Project_Management.md",
-    "Maintainer/README.md",
-    "Maintainer/Theme_Setup.md",
-    "Maintainer/VERSION.md",
-    "Untitled.base",
-    "CREU-TheManufactory_Homepage.md",
+    "manuals",
+    "images/PXL_20251015_151335040.jpg",
+    "images/PXL_20251015_151310883.jpg",
+    "images/PXL_20251015_151244102.jpg",
+    "Rayjet R400 Laser Cutter/RayjetR400_Splash.md",
+    "images/Equipment_RayjetR400.jpg",
+    "Bambu Lab P1S/BambuP1S_Splash.md",
+    "Bambu Lab A1/BambuA1_Splash.md",
+    "images/Equipment_BambuA1.jpg",
+    "images/Equipment_SolderRework.png",
+    "images/Equipment_ScrollSaw.jpg",
+    "images/Equipment_SolderStation.jpg",
+    "images/PXL_20251015_151247011.jpg",
+    "images/Equipment_Ultimaker.jpg",
     "Scroll Saw/ScrollSaw_Splash.md",
+    "Solder Station/SolderStation_Splash.md",
     "Scroll Saw/ScrollSaw_Quickstart.md",
-    "Templates/Template_Quickstart.md",
-    "Scroll Saw/ScrollSaw_Troubleshooting.md",
-    "publish.css",
-    "Scroll Saw/ScrollSaw_Safety_Operation.md",
-    "Templates/Template_Guides.md",
-    "Templates/Template_Splash.md",
-    "Templates/Template_Safety_Operation_Cutting.md",
-    "Supervisor-Staff Guides/SupervisorFaultsGuide.md",
-    "Student Guides/FaultReporting.md",
-    "Templates/Template_Safety_Operation_CNC.md",
-    "Supervisor-Staff Guides/SupervisorRoles.md",
+    "Solder Station/SolderStation_Quickstart.md",
+    "Bambu Lab P1S/BambuP1S_Quickstart.md",
+    "Pillar Drill/PillarDrill_Quickstart.md",
+    "Rayjet R400 Laser Cutter/RayjetR400_Quickstart.md",
+    "Rayjet R400 Laser Cutter/RayjetR400_Safety_Operation.md",
+    "Rayjet R400 Laser Cutter/RayjetR400_Troubleshooting.md",
+    "Bambu Lab P1S/BambuP1S_Troubleshooting.md",
+    "Bambu Lab P1S/BambuP1S_Safety_Operation.md",
+    "Bambu Lab A1/BambuA1_Troubleshooting.md",
     "Pillar Drill/PillarDrill_Troubleshooting.md",
     "Pillar Drill/PillarDrill_Splash.md",
-    "Pillar Drill/PillarDrill_Safety_Operation.md",
-    "Pillar Drill/PillarDrill_Quickstart.md",
-    "Student Guides/EquipmentInduction.md",
-    "Student Guides/EquipmentTraining.md",
-    "Student Guides/GeneralSafety.md",
-    "KeyPeople.md",
+    "Bambu Lab A1/BambuA1_Safety_Operation.md",
+    "Bambu Lab A1/BambuA1_Quickstart.md",
+    "Bambu Lab A1/BambuA1_Quickstart.md",
+    "Maintainer/Project_Management.md",
+    "Maintainer/README.md",
+    "Rayjet R400 Laser Cutter",
+    "Maintainer/CHANGELOG.md",
+    "Maintainer/VERSION.md",
+    "Bambu Lab P1S",
+    "CREU-TheManufactory_Homepage.md",
+    "Untitled.base",
+    "Bambu Lab A1",
+    "publish.css",
     "Supervisor-Staff Guides",
-    "images/Equipment_SolderStation.jpg",
-    "images/Equpiment_SolderStation.jpg",
-    "images/Equipment_SolderRework.png",
     "Solder Rework Gun",
     "Solder Station",
     "untitled folder",
-    "images/Equipment_PillarDrill.jpg",
-    "Equipment_PillarDrill.jpg",
-    "Pillar Drill.jpg",
-    "Pillar Drill",
-    "Pillar Drill",
-    "images/Equipment_ScrollSaw.jpg",
-    "images/ScrollSaw.jpg",
-    "ScrollSaw.jpg",
-    "Scrollsaw.jpg",
-    "Maintainer/package.sh.sb-5c8cf5d8-rOPkeh",
-    "Maintainer/package.sh"
+    "Pillar Drill"
   ]
 }
